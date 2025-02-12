@@ -1,8 +1,7 @@
-package Controller;
+package Model;
 
-public class Test  {
-	String nom,prenom,email,post;
-	double salaire;
+public class Employee {
+
 	public String getNom() {
 		return nom;
 	}
@@ -33,7 +32,7 @@ public class Test  {
 	public void setSalaire(double salaire) {
 		this.salaire = salaire;
 	}
-	public Test(String nom, String prenom, String email, String post, double salaire) {
+	public Employee(String nom, String prenom, String email, String post, double salaire) {
 		super();
 		this.nom = nom;
 		this.prenom = prenom;
@@ -41,6 +40,7 @@ public class Test  {
 		this.post = post;
 		this.salaire = salaire;
 	}
-	
+	String nom,prenom,email,post ;
+	double salaire;
 
 }

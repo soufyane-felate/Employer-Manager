@@ -20,8 +20,8 @@
     <div class="container mt-5">
       <h1 class="text-center mb-4">Employee Form</h1>
       <div class="text-center mb-3">
-        <a href="AddEmployee.html" class="btn btn-secondary">Add Employee</a>
-        <a href="showEmployee." class="btn btn-secondary">Show Employee</a>
+        <a href="AddEmployee.jsp" class="btn btn-secondary">Add Employee</a>
+        <a href="showEmployee.jsp" class="btn btn-secondary">Show Employee</a>
       </div>
      
     </div>
