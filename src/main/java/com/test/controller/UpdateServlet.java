@@ -1,4 +1,4 @@
-package Contreller;
+package com.test.controller;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,16 +8,16 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Servlet implementation class DisplayServlete
+ * Servlet implementation class UpdateServlet
  */
-@WebServlet("/DisplayServlete")
-public class DisplayServlete extends HttpServlet {
+@WebServlet("/UpdateServlet")
+public class UpdateServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public DisplayServlete() {
+    public UpdateServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
